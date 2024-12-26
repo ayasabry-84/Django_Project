@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Bytecode
+*.pyc
+
+# Database files
+db.sqlite3
+
+# Log files
+*.log
+
+# Local settings
+local_settings.py
+
+# Static and media files
+# You can remove these lines if using staticfiles or django-storages
+static/
+media/
+
+# IDE/Editor specific files
+# Adjust these if using a different IDE
+.idea/
+.vscode/
