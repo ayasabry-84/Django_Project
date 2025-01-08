@@ -15,6 +15,7 @@ from rest_framework.filters import OrderingFilter, SearchFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters import rest_framework as filters
 
+
 class RegisterUserView(APIView):
     permission_classes = [permissions.AllowAny]
 
