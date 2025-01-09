@@ -53,69 +53,50 @@ This project aims to deliver a robust, scalable, and secure solution for task ma
 7. Start the development server:
    ```bash
    python manage.py runserver
-Usage
+
+## Usage
 API Endpoints
-Get All Tasks:
-
-bash
-Copy
-GET /api/tasks/
-Create a Task:
-
-bash
-Copy
-POST /api/tasks/
-Example Request Body:
-
-json
-Copy
-{
-  "title": "Complete documentation",
-  "description": "Write the README.md file",
-  "status": "In Progress"
-}
-Example Requests
-Using curl:
-
-bash
-Copy
-curl -X GET http://127.0.0.1:8000/api/tasks/
+ - Get All Tasks:
+    ```bash
+    GET /api/tasks/
+ - Create a Task:
+    ```bash
+    POST /api/tasks/
+ - Example Request Body:
+   ```json
+   {
+   "title": "Complete documentation",
+   "description": "Write the README.md file",
+   "status": "In Progress"
+   }
 API Endpoints
-Method	URL	Description
-GET	/api/tasks/	Get a list of all tasks.
-POST	/api/tasks/	Create a new task.
-GET	/api/tasks/1/	Get details of a specific task.
-PUT	/api/tasks/1/	Update a specific task.
-DELETE	/api/tasks/1/	Delete a specific task.
-Contributing
+| Method | URL             | Description                     |
+|--------|-----------------|---------------------------------|
+| GET    | `/api/tasks/`   | Get a list of all tasks.        |
+| POST   | `/api/tasks/`   | Create a new task.              |
+| GET    | `/api/tasks/1/` | Get details of a specific task. |
+| PUT    | `/api/tasks/1/` | Update a specific task.         |
+| DELETE | `/api/tasks/1/` | Delete a specific task.         |
+
+## Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+5. Open a pull request.
 
-Create a new branch:
-
-bash
-Copy
-git checkout -b feature/your-feature-name
-Commit your changes:
-
-bash
-Copy
-git commit -m "Add your feature"
-Push to the branch:
-
-bash
-Copy
-git push origin feature/your-feature-name
-Open a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
+## Acknowledgments
 Django - The web framework used.
 
 Django REST Framework - For building the API.
 
-Contact
-For questions or feedback, please contact Your Name or open an issue on GitHub.
+## Contact
+For questions or feedback, please contact @ayasabry or open an issue on GitHub.
