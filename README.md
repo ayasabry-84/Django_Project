@@ -5,14 +5,6 @@ It is a backend project built with Django and Django REST Framework, designed to
 Users can also mark tasks as complete or incomplete and filter or sort tasks based on various criteria. The API includes user authentication, ensuring secure access to each user’s tasks, and employs proper error handling with HTTP status codes. 
 This project aims to deliver a robust, scalable, and secure solution for task management in both development and production environments.
 
-
-## Setup Instructions
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/ayasabry-84/Django_Project.git
-
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,13 +15,11 @@ This project aims to deliver a robust, scalable, and secure solution for task ma
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Task_Management_API.git
+   git clone https://github.com/ayasabry-84/Task_Management_API.git
 2. Navigate to the project directory:
-
    ```bash
    cd Task_Management_API
 3. Create a virtual environment:
-
    ```bash
    python -m venv venv
    
@@ -51,21 +41,45 @@ This project aims to deliver a robust, scalable, and secure solution for task ma
    python manage.py runserver
 
 ## Usage
-API Endpoints
- - Get All Tasks:
+
+### API Endpoints
+
+#### **Get All Tasks**
     ```bash
     GET /api/tasks/
- - Create a Task:
+#### **Create a Task**
     ```bash
     POST /api/tasks/
- - Example Request Body:
-   ```json
-   {
-   "title": "Complete documentation",
-   "description": "Write the README.md file",
-   "status": "In Progress"
-   }
-API Endpoints
+#### **Example Request Body:**
+    ```json
+    {
+    "title": "Complete documentation",
+    "description": "Write the README.md file",
+    "status": "In Progress"
+    }
+
+#### **Get Task Details**
+    ```bash
+    GET /api/tasks/1/
+
+#### **Update a Task**
+    ```bash
+    PUT /api/tasks/1/
+
+#### **Example Request Body:**
+    ```json
+    {
+      "title": "Updated Task Title",
+      "description": "Updated task description",
+      "status": "Completed"
+    }
+
+#### **Delete a Task**
+    ```bash
+    DELETE /api/tasks/1/
+
+
+#### **API Endpoints Summary**
 | Method | URL             | Description                     |
 |--------|-----------------|---------------------------------|
 | GET    | `/api/tasks/`   | Get a list of all tasks.        |
