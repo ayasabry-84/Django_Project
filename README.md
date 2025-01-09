@@ -34,14 +34,10 @@ This project aims to deliver a robust, scalable, and secure solution for task ma
    python -m venv venv
    
 4. Activate the virtual environment:
- On Windows:
-    ```bash
-    .\venv\Scripts\activate
-    
- On Linux/Mac:
-    ```bash
-    source venv/bin/activate
-
+  On Windows:
+     ```bash
+     .\venv\Scripts\activate
+         
 5. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -78,6 +74,7 @@ API Endpoints
 | PUT    | `/api/tasks/1/` | Update a specific task.         |
 | DELETE | `/api/tasks/1/` | Delete a specific task.         |
 
+
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
@@ -93,10 +90,11 @@ Contributions are welcome! Please follow these steps:
    git push origin feature/your-feature-name
 5. Open a pull request.
 
-## Acknowledgments
-Django - The web framework used.
 
-Django REST Framework - For building the API.
+## Acknowledgments
+- [Django](https://www.djangoproject.com/) - The web framework used.
+- [Django REST Framework](https://www.django-rest-framework.org/) - For building the API.
+
 
 ## Contact
-For questions or feedback, please contact @ayasabry or open an issue on GitHub.
+For questions or feedback, please contact [Aya Sabry](mailto:ayasabryy017@gmail.com) or open an issue on [GitHub](https://github.com/ayasabry-84/Task_Management_API/issues).
