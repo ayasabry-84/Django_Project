@@ -42,67 +42,60 @@ This project aims to deliver a robust, scalable, and secure solution for task ma
 
 ## Usage
 
-### API Endpoints
-
-#### **Get All Tasks**
-    ```bash
-    GET /api/tasks/
-#### **Create a Task**
-    ```bash
-    POST /api/tasks/
-#### **Example Request Body:**
-    ```json
-    {
-    "title": "Complete documentation",
-    "description": "Write the README.md file",
-    "status": "In Progress"
-    }
-
-#### **Get Task Details**
-    ```bash
-    GET /api/tasks/1/
-
-#### **Update a Task**
-    ```bash
-    PUT /api/tasks/1/
-
-#### **Example Request Body:**
-    ```json
-    {
-      "title": "Updated Task Title",
-      "description": "Updated task description",
-      "status": "Completed"
-    }
-
-#### **Delete a Task**
-    ```bash
-    DELETE /api/tasks/1/
-
-
-#### **API Endpoints Summary**
-| Method | URL             | Description                     |
-|--------|-----------------|---------------------------------|
-| GET    | `/api/tasks/`   | Get a list of all tasks.        |
-| POST   | `/api/tasks/`   | Create a new task.              |
-| GET    | `/api/tasks/1/` | Get details of a specific task. |
-| PUT    | `/api/tasks/1/` | Update a specific task.         |
-| DELETE | `/api/tasks/1/` | Delete a specific task.         |
+ ### API Endpoints
+ 
+ #### **Get All Tasks**
+     GET /api/tasks/
+ #### **Create a Task**
+     POST /api/tasks/
+ #### **Example Request Body:**
+     {
+     "title": "Complete documentation",
+     "description": "Write the README.md file",
+     "status": "In Progress"
+     }
+ 
+ #### **Get Task Details**
+     GET /api/tasks/1/
+ 
+ #### **Update a Task**
+     PUT /api/tasks/1/
+ 
+ #### **Example Request Body:**
+     {
+       "title": "Updated Task Title",
+       "description": "Updated task description",
+       "status": "Completed"
+     }
+ 
+ #### **Delete a Task**
+     DELETE /api/tasks/1/
+ 
+ 
+ #### **API Endpoints Summary**
+ | Method | URL             | Description                     |
+ |--------|-----------------|---------------------------------|
+ | GET    | `/api/tasks/`   | Get a list of all tasks.        |
+ | POST   | `/api/tasks/`   | Create a new task.              |
+ | GET    | `/api/tasks/1/` | Get details of a specific task. |
+ | PUT    | `/api/tasks/1/` | Update a specific task.         |
+ | DELETE | `/api/tasks/1/` | Delete a specific task.         |
 
 
 ## Contributing
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your feature"
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-5. Open a pull request.
+ Contributions are welcome! Please follow these steps:
+ 
+ 1. Fork the repository.
+ 2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+ 3. Commit your changes:
+    ```bash
+    git commit -m "Add your feature"
+ 4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+ 5. Open a pull request.
 
 
 ## Acknowledgments
@@ -111,4 +104,4 @@ Contributions are welcome! Please follow these steps:
 
 
 ## Contact
-For questions or feedback, please contact [Aya Sabry](mailto:ayasabryy017@gmail.com) or open an issue on [GitHub](https://github.com/ayasabry-84/Task_Management_API/issues).
+ For questions or feedback, please contact [Aya Sabry](mailto:ayasabryy017@gmail.com) or open an issue on [GitHub](https://github.com/ayasabry-84/Task_Management_API/issues).
