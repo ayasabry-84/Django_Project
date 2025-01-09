@@ -79,14 +79,23 @@ This project aims to deliver a **reliable and user-friendly solution** for task 
  
  
  #### **API Endpoints Summary 📊**
- | Method | URL             | Description                     |
- |--------|-----------------|---------------------------------|
- | GET    | `/api/tasks/`   | Get a list of all tasks.        |
- | POST   | `/api/tasks/`   | Create a new task.              |
- | GET    | `/api/tasks/1/` | Get details of a specific task. |
- | PUT    | `/api/tasks/1/` | Update a specific task.         |
- | DELETE | `/api/tasks/1/` | Delete a specific task.         |
-
+ - User Authentication
+   | Method | URL             | Description                     |
+   |--------|-----------------|---------------------------------|
+   | POST   | `/register/`    | Register a new user.            |
+   | PUT    | `/update/`      | Update user details.            |
+   | POST   | `/login/`       | Log in a user.                  |
+   | DELETE | `/delete/`      | Delete a user account.          |
+   | POST   | `/logout/`      | Log out a user.                 |
+   
+ - Task Management
+   | Method | URL             | Description                     |
+   |--------|-----------------|---------------------------------|
+   | GET    | `/api/tasks/`   | Get a list of all tasks.        |
+   | POST   | `/api/tasks/`   | Create a new task.              |
+   | GET    | `/api/tasks/1/` | Get details of a specific task. |
+   | PUT    | `/api/tasks/1/` | Update a specific task.         |
+   | DELETE | `/api/tasks/1/` | Delete a specific task.         |
 
 ## Contributing
  Contributions are welcome! Please follow these steps:
